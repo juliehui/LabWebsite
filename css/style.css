@@ -1,7 +1,7 @@
 .container-nav {
 	padding:20px 0px;
-	border-bottom:5px solid #eee;
-	border-top:5px solid #eee;
+	/*border-bottom:5px solid #eee;
+	border-top:5px solid #eee;*/
 }
 
 .container-name {
@@ -19,8 +19,15 @@
 	color:#333;
 }
 
+.text-heading-About {
+	letter-spacing:1px;
+	font-weight:700;
+	color:#333;
+	font-size:50px;
+}
+
 .link-name {
-	font-size:24px;
+	font-size:35px;
 	color:#333;
 	font-weight:700;
 	letter-spacing:3px;
@@ -59,56 +66,80 @@
   	color:black;
 }
 
+.link-title {
+  	color:#333;
+}
+
+.link-title:hover {
+	text-decoration:none;
+	color:#3498db;
+}
+
 .profilepic {
 	margin-top:30px;
 	height:300px;
+	background-image: url("../images/Hui_Julie_05.JPG");
+	background-repeat: no-repeat;
+	background-position:30% 9%;
+	background-size:cover;
+	border:5px solid #eee;
+}
+.topicon {
+	margin-top:0px;
+	height:45px;
+	background-image: url("../images/Steps.png");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size:cover;
+}
+.mainimage {
+	margin-top:0px;
+	margin-bottom:30px;
+	height:350px;
 	background-image: url("../images/Gate.jpg");
 	background-repeat: no-repeat;
 	background-position:30% 9%;
 	background-size:cover;
 	border:5px solid #eee;
 }
-
-.researchpic {
-	margin-top:30px;
-	height:250px;
-	background-image: url("../images/researchbanner.jpg");
+.memberimage-Julie {
+	margin-top:10px;
+	margin-bottom:20px;
+	height:200px;
+	background-image: url("../images/Julie.JPG");
 	background-repeat: no-repeat;
 	background-position:30% 9%;
 	background-size:cover;
 	border:5px solid #eee;
 }
 
-.pic1 {
+.memberimage-Ira {
+	margin-top:10px;
+	margin-bottom:20px;
 	height:200px;
-	background-image: url("../images/pic1.jpg");
+	background-image: url("../images/Ira.jpeg");
 	background-repeat: no-repeat;
 	background-position:30% 9%;
 	background-size:cover;
 	border:5px solid #eee;
 }
 
-.pic2 {
+.memberimage-Shanley {
+	margin-top:10px;
+	margin-bottom:20px;
 	height:200px;
-	background-image: url("../images/pic2.jpg");
+	background-image: url("../images/Shanley.jpeg");
 	background-repeat: no-repeat;
 	background-position:30% 9%;
 	background-size:cover;
 	border:5px solid #eee;
 }
 
-.pic3 {
+.memberimage-Abhishek {
+	margin-top:10px;
+	margin-bottom:20px;
 	height:200px;
-	background-image: url("../images/pic3.jpg");
-	background-repeat: no-repeat;
-	background-position:30% 9%;
-	background-size:cover;
-	border:5px solid #eee;
-}
-
-.pic4 {
-	height:200px;
-	background-image: url("../images/pic4.jpg");
+	background-image: url("../images/Abhishek.jpg");
 	background-repeat: no-repeat;
 	background-position:30% 9%;
 	background-size:cover;
@@ -125,12 +156,22 @@
 
 #bootstrapoverride h2 {
 	font-size:18px;
+	margin: 10px 0px 15px 0px;
+}
+
+#bootstrapoverride h3 {
+	font-size:25px;
 	margin:30px 0px 15px 0px;
 }
 
 .text-body {
 	font-size:16px;
 	line-height:26px;
+}
+
+.about {
+	font-size:20px;
+	line-height:30px;
 }
 
 .text-emphasis {
@@ -187,7 +228,6 @@
 	}
 
 }
-
 
 
 
