@@ -1,1 +1,1 @@
-https://juliehui.github.io/website/
+https://juliehui.github.io/LabWebsite/
