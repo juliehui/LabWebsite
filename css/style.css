@@ -150,6 +150,17 @@
 	border:5px solid #eee;
 }
 
+.memberimage-Matthew {
+	margin-top:10px;
+	margin-bottom:20px;
+	height:200px;
+	background-image: url("../images/Matthew.png");
+	background-repeat: no-repeat;
+	background-position:30% 9%;
+	background-size:cover;
+	border:5px solid #eee;
+}
+
 .noleftpadding {
    padding-left: 0 !important;
 }
